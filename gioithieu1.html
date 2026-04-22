@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Giới thiệu – Chư Đăng Ya</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#eef5f1;
+}
+
+/* HEADER */
+header{
+    background:linear-gradient(to right,#1b5e20,#4caf50);
+    color:white;
+    padding:40px;
+    text-align:center;
+}
+
+/* KHỐI NỘI DUNG */
+.content{
+    width:80%;
+    margin:40px auto;
+    background:white;
+    padding:40px;
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.2);
+    animation:fadeUp 1s;
+}
+
+@keyframes fadeUp{
+    from{opacity:0; transform:translateY(40px);}
+    to{opacity:1; transform:translateY(0);}
+}
+
+h2{
+    color:#2e7d32;
+    border-left:6px solid #4caf50;
+    padding-left:10px;
+}
+
+p{
+    line-height:1.8;
+    text-align:justify;
+}
+
+img{
+    width:100%;
+    margin-top:20px;
+    border-radius:15px;
+    transition:0.4s;
+}
+
+img:hover{
+    transform:scale(1.05);
+}
+
+/* LINK */
+a{
+    display:inline-block;
+    margin-top:20px;
+    color:#2e7d32;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+/* FOOTER */
+footer{
+    background:#1b5e20;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Giới thiệu Chư Đăng Ya</h1>
+</header>
+
+<div class="content">
+    <h2>Vị trí và đặc điểm</h2>
+    <p>
+        Núi lửa Chư Đăng Ya nằm tại huyện Chư Păh, tỉnh Gia Lai.
+        Đây là một ngọn núi lửa cổ đã ngừng hoạt động từ hàng triệu năm trước,
+        nổi bật với miệng núi tròn đều và địa hình độc đáo.
+    </p>
+
+    <img src="gt1.jpg">
+
+    <p>
+        Với đất đỏ bazan màu mỡ và cảnh quan thiên nhiên hoang sơ,
+        Chư Đăng Ya được xem là biểu tượng thiên nhiên đặc sắc của Tây Nguyên.
+    </p>
+<video width="1200" controls>
+    <source src="nuiluavd.mp4" type="video/mp4">
+    
+</video>
+    <a href="index.html">⬅ Quay về trang chủ</a>
+</div>
+
+<footer>
+    <p>Web Tin học 12 – HTML & CSS</p>
+</footer>
+
+</body>
+</html>
